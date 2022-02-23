@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(243, 223, 199);
+}
+
+.teclado{
+    width: 300px;
+    height: 200px;
+}
+.cont-imagen{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.encabezado{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.barra{
+    width: 100%;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(189, 255, 241);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.enlace-barra{
+    margin-left:15px ;
+}
+.encabezado{
+    padding-top: 30px;
+    font-size: 60px;
+}
+
+.articulo{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pie-pag{
+    position: absolute;
+    bottom: 0;
+    margin-left: 20%;
+}
+
+.pie-pag-2{
+    position: absolute;
+    bottom: 0;
+    margin-left: 30%;
+}
