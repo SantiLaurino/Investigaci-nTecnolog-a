@@ -12,6 +12,7 @@ body{
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 .encabezado{
     width: fit-content;
@@ -31,6 +32,10 @@ body{
 }
 .enlace-barra{
     margin-left:15px ;
+    /* visual */
+    color: rgb(141, 46, 46); 
+    text-decoration: none;
+    font-size: 23px;
 }
 .encabezado{
     padding-top: 30px;
@@ -41,16 +46,4 @@ body{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-}
-
-.pie-pag{
-    position: absolute;
-    bottom: 0;
-    margin-left: 20%;
-}
-
-.pie-pag-2{
-    position: absolute;
-    bottom: 0;
-    margin-left: 30%;
 }
